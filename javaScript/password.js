@@ -113,6 +113,11 @@ var strongPasswordChecker = function (password) {
   let pass1="a";
   let pass2="aA1";
   let pass3="1337C0d3";
+  let pass4="1425ADCT";
+  let pass5="1337C0d3";
+
   console.log(strongPasswordChecker(pass1));
   console.log(strongPasswordChecker(pass2));
   console.log(strongPasswordChecker(pass3));
+  console.log(strongPasswordChecker(pass4));
+  console.log(strongPasswordChecker(pass5));
